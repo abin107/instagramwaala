@@ -1,4 +1,4 @@
-export const useTryCatch = async (promise) => {
+export const handlePromise = async (promise) => {
   try {
     const data = await promise;
     return [data, null];

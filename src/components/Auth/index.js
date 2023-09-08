@@ -10,7 +10,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from 'firebase/auth';
-import { handlePromise } from '../../utils/useTryCatch';
+import { handlePromise } from '../../utils/handlePromise';
 import { toast } from 'react-hot-toast';
 import LoadingOverlay from '../LoadingOverlay';
 import {
